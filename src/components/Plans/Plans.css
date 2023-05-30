@@ -64,3 +64,10 @@
 .feature > img {
   width: 1rem;
 }
+
+.plans-blur {
+  width: 32rem;
+  height: 23rem;
+  top: 50%;
+  right: 35%;
+}
