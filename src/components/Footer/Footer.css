@@ -1,0 +1,25 @@
+.Footer-container {
+  position: relative;
+}
+
+.Footer-container > hr {
+  border: 1px solid var(--lightgray);
+}
+
+.footer {
+  padding: 1rem 2rem;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer > img {
+  width: 25px;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer > img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
