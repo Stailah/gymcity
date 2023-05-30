@@ -126,6 +126,7 @@
     position: absolute;
     right: 4rem;
     top: 7rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .heart-rate>:nth-child(2){
@@ -167,6 +168,7 @@
     padding: 1rem;
     top: 32rem;
     right: 28rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .calories>img{
