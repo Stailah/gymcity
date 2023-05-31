@@ -59,3 +59,24 @@
   background-color: var(--orange);
   color: white;
 }
+
+@media screen and (max-width: 768px) {
+  .Join {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .left-j {
+    font-size: x-large;
+    flex-direction: column;
+  }
+
+  .right-j {
+    padding: 2rem;
+  }
+
+  .right-j > :nth-child(1) {
+    position: absolute;
+    right: -8.5rem;
+  }
+}

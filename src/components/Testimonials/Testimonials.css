@@ -80,3 +80,27 @@
   width: 1.5rem;
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .testimonials {
+    flex-direction: column;
+    margin-top: -4rem;
+  }
+
+  .right-t {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .right-t > div {
+    position: relative;
+    display: none;
+  }
+
+  .right-t > img {
+    display: none;
+  }
+}

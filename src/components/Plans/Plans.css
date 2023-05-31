@@ -71,3 +71,9 @@
   top: 50%;
   right: 35%;
 }
+
+@media screen and (max-width: 768px) {
+  .plans {
+    flex-direction: column;
+  }
+}
