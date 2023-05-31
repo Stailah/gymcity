@@ -19,8 +19,6 @@ const Hero = () => {
         <div className="the-best-ad">
           <motion.div
             initial={{ left: "210px" }}
-            animate={{ left: "9px" }}
-            transition={transition}
             animate={{ left: ["203px", "9px", "203px"] }}
             transition={{ duration: 3, loop: Infinity }}
           ></motion.div>
@@ -75,7 +73,7 @@ const Hero = () => {
           transition={transition}
           exit={{ right: "-1rem" }}
         >
-          <img src={Heart} alt="" />
+          <img id="pulsating-image" src={Heart} alt="" />
           <span>Heart Rate</span>
           <span>116 bpm</span>
         </motion.div>
