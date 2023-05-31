@@ -4,10 +4,7 @@ import image1 from "../../assets/image1.png";
 import image2 from "../../assets/image2.png";
 import image3 from "../../assets/image3.png";
 import image4 from "../../assets/image4.png";
-import nb from "../../assets/nb.png";
-import adidas from "../../assets/adidas.png";
-import nike from "../../assets/nike.png";
-import tick from "../../assets/tick.png";
+import whiteTick from "../../assets/whiteTick.png";
 
 const Reasons = () => {
   return (
@@ -20,34 +17,28 @@ const Reasons = () => {
       </div>
 
       <div className="right-r">
-        <span>some reasons</span>
+        <span>Discover the benefits</span>
         <div>
           <span className="stroke-text">why</span>
-          <span> choose us?</span>
+          <span> our services are the perfect choice</span>
         </div>
 
         <div className="details-r">
           <div>
-            <img src={tick} alt="" className="span" />
-            <span>+140 expert coaches</span>
+            <img src={whiteTick} alt="" className="span" />
+            <span>Unlock Your Potential with +120 Expert Coaches</span>
           </div>
           <div>
-            <img src={tick} alt="" className="span" />
-            <span>Train smarter and faster</span>
+            <img src={whiteTick} alt="" className="span" />
+            <span>Reach Your Goals Faster with Smarter Training</span>
           </div>
           <div>
-            <img src={tick} tick alt="" className="span" />
-            <span>1 free month trial</span>
+            <img src={whiteTick} alt="" className="span" />
+            <span>Experience the Difference with a Free Month Trial</span>
           </div>
           <div>
-            <img src={tick} alt="" className="span" />
-            <span>Reliable Partners</span>
-          </div>
-          <span className="our-partners">OUR PARTNERS</span>
-          <div className="partners">
-            <img src={nb} alt="" />
-            <img src={adidas} alt="" />
-            <img src={nike} alt="" />
+            <img src={whiteTick} alt="" className="span" />
+            <span>Trustworthy Partners for Your Fitness Journey</span>
           </div>
         </div>
       </div>

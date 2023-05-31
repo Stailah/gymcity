@@ -8,9 +8,9 @@ const Plans = () => {
     <div className="plans-container" id="plans-section">
       <div className="blur plans-blur"></div>
       <div className="programs-header">
-        <span className="stroke-text">ready to start</span>
-        <span>your journey</span>
-        <span className="stroke-text">now with us</span>
+        <span className="stroke-text">start your</span>
+        <span>fitness journey</span>
+        <span className="stroke-text">today</span>
       </div>
 
       {/* Plans Card */}

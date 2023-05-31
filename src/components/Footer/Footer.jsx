@@ -9,9 +9,29 @@ const Footer = () => {
     <div className="Footer-container">
       <hr />
       <div className="footer">
-        <img src={Github} alt="" />
-        <img src={Instagram} alt="" />
-        <img src={Linkedin} alt="" />
+        <a
+          href="https://github.com/stailah"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={Github} alt="" />
+        </a>
+
+        <a
+          href="https://www.instagram.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={Instagram} alt="" />
+        </a>
+
+        <a
+          href="https://www.linkedin.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={Linkedin} alt="" />
+        </a>
       </div>
     </div>
   );

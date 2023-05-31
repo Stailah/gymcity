@@ -6,22 +6,22 @@ export const testimonialsData = [
   {
     image: image1,
     review:
-      "I made the right choice by choosing the GYM@CITY and by choosing the right plan and program I already achieved my ideal body!",
-    name: "MATHEW HENDRICKSON",
-    status: "ENTREPRENEUR",
+      "I am amazed at the incredible transformation I achieved with GYM@CITY and their personalized plan. It's the best decision I've ever made for my fitness journey!",
+    name: "Carl Anderson",
+    status: "Fitness Enthusiast",
   },
   {
     image: image2,
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsam, ab itaque nam perferendis impedit sint ",
-    name: "JOHN KEVIN",
-    status: "COACH",
+      "GYM@CITY has completely changed my life! Their top-notch trainers and customized programs have helped me surpass my fitness goals. I couldn't be happier!",
+    name: "David Thompson",
+    status: "Professional Athlete",
   },
   {
     image: image3,
     review:
-      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima aspernatur quod voluptatem",
-    name: "FRANKLIN",
-    status: "CUSTOMER",
+      "I never thought achieving my dream body was possible until I joined GYM@CITY. Their expert guidance and motivating environment have made my fitness journey enjoyable and rewarding.",
+    name: "Thomas Collins",
+    status: "Working Professional",
   },
 ];

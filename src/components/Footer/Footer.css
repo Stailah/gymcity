@@ -14,12 +14,12 @@
   justify-content: center;
 }
 
-.footer > img {
+.footer > a > img {
   width: 25px;
   transition: all 0.3s ease-in-out;
 }
 
-.footer > img:hover {
+.footer > a > img:hover {
   cursor: pointer;
   transform: scale(1.1);
 }

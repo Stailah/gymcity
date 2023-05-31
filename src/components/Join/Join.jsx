@@ -29,12 +29,12 @@ const Join = () => {
       <div className="left-j">
         <hr />
         <div>
-          <span className="stroke-text">READY TO</span>
-          <span>LEVEL UP</span>
+          <span className="stroke-text">elevate your</span>
+          <span>fitness journey:</span>
         </div>
         <div>
-          <span>YOUR ROUTINE</span>
-          <span className="stroke-text">WITH US?</span>
+          <span>join us</span>
+          <span className="stroke-text">now!</span>
         </div>
       </div>
       <div className="right-j">

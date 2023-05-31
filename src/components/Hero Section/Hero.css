@@ -32,7 +32,7 @@
 
 .the-best-ad > div {
   position: absolute;
-  background-color: var(--orange);
+  background-color: var(--blue);
   width: 5.4rem;
   height: 80%;
   left: 8px;
@@ -87,7 +87,7 @@
 
 .hero-buttons > :nth-child(1) {
   color: white;
-  background-color: var(--orange);
+  background-color: var(--blue);
   width: 8rem;
 }
 
@@ -95,12 +95,12 @@
   color: white;
   background-color: transparent;
   width: 8rem;
-  border: 2px solid var(--orange);
+  border: 2px solid var(--blue);
 }
 
 .right-h {
   flex: 1;
-  background-color: var(--orange);
+
   position: relative;
 }
 
@@ -146,18 +146,10 @@
   width: 23rem;
 }
 
-.hero-image-back {
-  position: absolute;
-  top: 4rem;
-  right: 20rem;
-  z-index: -1;
-  width: 15rem;
-}
-
 .calories {
   display: flex;
   gap: 2rem;
-  background-color: var(--caloryCard);
+  background-color: var(--darkGrey);
   border-radius: 5px;
   width: 11rem;
   position: absolute;
@@ -275,10 +267,5 @@
     left: 12rem;
     top: 4rem;
     align-self: center;
-  }
-  .hero-image-back {
-    width: 15rem;
-    left: 10rem;
-    top: 1rem;
   }
 }

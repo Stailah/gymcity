@@ -1,5 +1,8 @@
 .programs-header {
-  gap: 2rem;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .plans {
@@ -36,7 +39,7 @@
 }
 
 .plan > svg {
-  fill: var(--orange);
+  fill: var(--blue);
   width: 2rem;
   height: 2rem;
 }

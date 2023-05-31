@@ -11,8 +11,8 @@ const Testimonials = () => {
     <div className="testimonials">
       <div className="left-t">
         <span>Testimonials</span>
-        <span className="stroke-text">What they</span>
-        <span>say about us</span>
+        <span className="stroke-text">Hear about</span>
+        <span>Our clients</span>
         <span>{testimonialsData[selected].review}</span>
         <span>
           <span className="testimonial-name">
